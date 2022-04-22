@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/sim.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="../assets/js/sim.js"></script>
+    <title>コンサル・イベント・フランチャイズ・研修なら | 株式会社HANALAB</title>
+    <link rel = "icon" type = "image/png" href = "assets/img/hanafc-icon.png">
+</head>
+<body>
+
+  <!-- *****header wrapper***** -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-2 no-tablet"></div>
+      <div class="col-sm-8 text-white">
+        <div class="row flex-column">
+            <div class="col-sm-5 pt-3 mt-3">
+              <a href="https://www.hanalab-fc.com">
+                <img src="assets/img/hanalab-logo" alt="Hanalab Logo" class="logo-img" width="407" height="83">
+              </a>
+            </div>
+            <div class="col-sm-6 pt-4 mt-4 contact-form">
+              <div class="row flex-column">
+                <div class="col-sm-6">
+                  <a href="tel:03-6822-6736" class="btn btn-lg text-white header-btn-tel">
+                    <i class="fas fa-phone-square-alt"></i>
+                    <span class="text">03-6822-6736</span>
+                  </a>   
+                </div>
+                <div class="col-sm-6">
+                  <a href="https://www.hanalab-fc.com/contact" class="btn btn-lg text-white header-btn-contact">
+                    <i class="fa fa-envelope-square"></i>
+                    <span class="text">メールお問い合わせ</span>
+                  </a>
+                </div> 
+              </div>
+              <div class="row no-tablet">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8">
+                  <p class="text">​9:00〜18:00 土日・年末年始・祝日弊社休業日を除く​。<br>お問い合わせ内容の回答に数営業日かかる場合がございます。</p>
+                </div>
+                <div class="col-sm-2"></div>
+              </div>
+            </div>
+          </div>
+          <div class="row flex-column no-pc">
+            <div class="col-sm-53"></div>
+            <div class="col-sm-6 ">
+              <div class="row flex-column">
+                <div class="col-sm-6">
+                  <p class="text header-text">​9:00〜18:00 土日・年末年始・祝日弊社休業日を除く​。<br>お問い合わせ内容の回答に数営業日かかる場合がございます。</p>
+                </div>
+                <div class="col-sm-6"></div> 
+              </div><br>
+            </div>
+          </div>
+        </div>    
+        <div class="col-sm-2"></div>
+    </div>
+  </div>
+  <!-- *****end of header wrapper***** -->
+  
+  <!-- *****image banner***** -->
+  <div class="container-fluid">
+    <img src="assets/img/banner.jpg" alt="Banner Image" class="banner-img"> 
+  </div>
+  <!-- *****end of image banner***** -->
+  
+  <!-- *****way to use wrapper***** -->
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10 price-text">
+        <h2 class="column__ttl use-title">使い方</h2><br>
+        <p>訪問看護の利用料金は<strong class="em-line">介護保険と医療保険で金額が違います。</strong>また、以下のような点も踏まえ、利用料金を算定しています。</p>
+        <ul>
+          <li>まず負担割合を選択し、該当するボタンをクリックしてください。</li>
+          <li>選択した負担割合に応じた表が表示されますので、時間と項目を確認しながら必要な回数を入力してください。<br>また、加算が必要な場合は該当する加算項目にチェックを入れてください。</li>
+          <li>入力すると一番下に、自動的に合計金額が算出されます。</li>
+        </ul>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+    <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8">
+          <a href="iryou-sim.html" class="btn btn-lg text-white iryou-btn">
+            <span>医療保険の料金シミュレーションはこちらから→</span>
+          </a>  
+        </div>
+        <div class="col-sm-2"></div>
+    </div>  
+
+    <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8 prev">
+          <a href="index.html">
+            <span class="prev-text">←まえのページへ戻る</span>
+          </a>  
+        </div>
+        <div class="col-sm-2"></div>
+    </div> 
+  </div> 
+  <!-- *****end of way to use wrapper***** -->
+
+
+  <!-- *****simulation wrapper***** -->
+  <div class="container pt-5 align-items-center justify-content-center card-container">
+    <h2 class="text-center">1. 負担割合の選択1割負担</h2>
+    <div class="row pt-4">
+      <ul class="nav nav-tabs">
+        <li data-toggle="tab">
+        <a class="d-flex align-items-center justify-content-center sim-title" data-toggle="tab" href="#kaigo-sim1" id="btn-sim1">１割負担</a>
+       </li>
+       <li data-toggle="tab">
+        <a class="d-flex align-items-center justify-content-center sim-title" data-toggle="tab" href="#kaigo-sim2" id="btn-sim2">２割負担</a>
+       </li>
+       <li data-toggle="tab">
+        <a class="d-flex align-items-center justify-content-center sim-title" data-toggle="tab" href="#kaigo-sim3" id="btn-sim3">３割負担</a>
+       </li>
+      </ul>
+    </div>
+
+    <div class="tab-content pt-5">
+      <!-- *****１割負担***** -->
+      <div id="kaigo-sim1" class="tab-pane fade in">
+        <section class="simulation -sim1">
+            <h2 class="simulation__ttl">2. 回数の入力<small>（介護保険／1割負担）</small></h2>
+            <form id="simpars1" action="#" name="simpars1">
+              <h3 class="simulation__midttl">看護基本料金</h3>
+              <div class="simulation__tbl">
+                <div class="simulation__row -normal">
+                  <h4 class="simulation__th">通常の時間</h4>
+                  <dl class="simulation__td">
+                    <dt>20分未満</dt>
+                    <dd><label>357円：<input type="number" min="0" max="99" id="p1_num0" name="p1_num0" size="5" value="0">回</label>
+                      <input type="text" id="p1time-0" value="通常の時間（看護）">
+                      <input type="text" id="p1longtime-0" value="20分未満">
+                    </dd>
+                    <dt>30分未満</dt>
+                    <dd><label>536円：<input type="number" min="0" max="99" id="p1_num4" name="p1_num4" size="5" value="0">回</label>
+                      <input type="text" id="p1time-4" value="通常の時間（看護）">
+                      <input type="text" id="p1longtime-4" value="30分未満">
+                    </dd>
+                    <dt>30分以上60分未満</dt>
+                    <dd><label>936円：<input type="number" min="0" max="99" id="p1_num8" name="p1_num8" size="5" value="0">回</label>
+                      <input type="text" id="p1time-8" value="通常の時間（看護）">
+                      <input type="text" id="p1longtime-8" value="30分以上60分未満">
+                    </dd>
+                    <dt>60分以上90分未満</dt>
+                    <dd><label>1,283円：<input type="number" min="0" max="99" id="p1_num12" name="p1_num12" size="5" value="0">回</label>
+                      <input type="text" id="p1time-12" value="通常の時間（看護）">
+                      <input type="text" id="p1longtime-12" value="60分以上90分未満">
+                    </dd>
+                  </dl>
+                </div>
+                
+                <div class="simulation__row -night">
+                  <h4 class="simulation__th">夜間(18時～22時)<br>25%増し</h4>
+                  <dl class="simulation__td">
+                    <dt>20分未満</dt>
+                    <dd><label>446円：<input type="number" min="0" max="99" id="p1_num1" name="p1_num1" size="5" value="0">回</label>
+                      <input type="text" id="p1time-1" value="夜間(18時～22時)25%増し（看護）">
+                      <input type="text" id="p1longtime-1" value="20分未満">
+                    </dd>
+                    <dt>30分未満</dt>
+                    <dd><label>668円：<input type="number" min="0" max="99" id="p1_num5" name="p1_num5" size="5" value="0">回</label>
+                      <input type="text" id="p1time-5" value="夜間(18時～22時)25%増し（看護）">
+                      <input type="text" id="p1longtime-5" value="30分未満">
+                    </dd>
+                    <dt>30分以上60分未満</dt>
+                    <dd><label>1,167円：<input type="number" min="0" max="99" id="p1_num9" name="p1_num9" size="5" value="0">回</label>
+                      <input type="text" id="p1time-9" value="夜間(18時～22時)25%増し（看護）">
+                      <input type="text" id="p1longtime-9" value="30分以上60分未満">
+                    </dd>
+                    <dt>60分以上90分未満</dt>
+                    <dd><label>1,598円：<input type="number" min="0" max="99" id="p1_num13" name="p1_num13" size="5" value="0">回</label>
+                      <input type="text" id="p1time-13" value="夜間(18時～22時)25%増し（看護）">
+                      <input type="text" id="p1longtime-13" value="60分以上90分未満">
+                    </dd>
+                  </dl>
+                </div>
+                
+                <div class="simulation__row -midnight">
+                  <h4 class="simulation__th">深夜(22時～6時)<br>50%増し</h4>
+                  <dl class="simulation__td">
+                    <dt>20分未満</dt>
+                    <dd><label>534円：<input type="number" min="0" max="99" id="p1_num2" name="p1_num2" size="5" value="0">回</label>
+                      <input type="text" id="p1time-2" value="深夜(22時～6時)50%増し（看護）">
+                      <input type="text" id="p1longtime-2" value="20分未満">
+                    </dd>
+                    <dt>30分未満</dt>
+                    <dd><label>802円：<input type="number" min="0" max="99" id="p1_num6" name="p1_num6" size="5" value="0">回</label>
+                      <input type="text" id="p1time-6" value="深夜(22時～6時)50%増し（看護）">
+                      <input type="text" id="p1longtime-6" value="30分未満">
+                    </dd>
+                    <dt>30分以上60分未満</dt>
+                    <dd><label>1,401円：<input type="number" min="0" max="99" id="p1_num10" name="p1_num10" size="5" value="0">回</label>
+                      <input type="text" id="p1time-10" value="深夜(22時～6時)50%増し（看護）">
+                      <input type="text" id="p1longtime-10" value="30分以上60分未満">
+                    </dd>
+                    <dt>60分以上90分未満</dt>
+                    <dd><label>1,918円：<input type="number" min="0" max="99" id="p1_num14" name="p1_num14" size="5" value="0">回</label>
+                      <input type="text" id="p1time-14" value="深夜(22時～6時)50%増し（看護）">
+                      <input type="text" id="p1longtime-14" value="60分以上90分未満">
+                    </dd>
+                  </dl>
+                </div>
+                
+                <div class="simulation__row -morning">
+                  <h4 class="simulation__th">早朝(6時～8時)<br>25%増し</h4>
+                  <dl class="simulation__td">
+                    <dt>20分未満</dt>
+                    <dd><label>446円：<input type="number" min="0" max="99" id="p1_num3" name="p1_num3" size="5" value="0">回</label>
+                      <input type="text" id="p1time-3" value="早朝(6時～8時)25%増し（看護）">
+                      <input type="text" id="p1longtime-3" value="20分未満">
+                    </dd>
+                    <dt>30分未満</dt>
+                    <dd><label>668円：<input type="number" min="0" max="99" id="p1_num7" name="p1_num7" size="5" value="0">回</label>
+                      <input type="text" id="p1time-7" value="早朝(6時～8時)25%増し（看護）">
+                      <input type="text" id="p1longtime-7" value="30分未満">
+                    </dd>
+                    <dt>30分以上60分未満</dt>
+                    <dd><label>1,167円：<input type="number" min="0" max="99" id="p1_num11" name="p1_num11" size="5" value="0">回</label>
+                      <input type="text" id="p1time-11" value="早朝(6時～8時)25%増し（看護）">
+                      <input type="text" id="p1longtime-11" value="30分以上60分未満">
+                    </dd>
+                    <dt>60分以上90分未満</dt>
+                    <dd><label>1,598円：<input type="number" min="0" max="99" id="p1_num15" name="p1_num15" size="5" value="0">回</label>
+                      <input type="text" id="p1time-15" value="早朝(6時～8時)25%増し（看護）">
+                      <input type="text" id="p1longtime-15" value="60分以上90分未満">
+                    </dd>
+                  </dl>
+                </div>
+              </div>
+             
+              <!-- *****リハビリ基本料金****** -->              
+              <h3 class="simulation__midttl">リハビリ基本料金</h3>
+              <div class="simulation__tbl">
+                <div class="simulation__row -rehab">
+                  <h4 class="simulation__th">通常の訪問</h4>
+                  <dl class="simulation__td">
+                    <dt>1回につき20分</dt>
+                    <dd><label>334円：<input type="number" min="0" max="99" id="p1_rehab0" name="p1_rehab0" size="5" value="0">回</label>
+                      <input type="text" id="p1time-rehab0" value="通常の訪問（リハビリ）">
+                      <input type="text" id="p1longtime-rehab0" value="1回につき20分">
+                    </dd>
+                    <dt>１回につき40分</dt>
+                    <dd><label>668円：<input type="number" min="0" max="99" id="p1_rehab1" name="p1_rehab1" size="5" value="0">回</label>
+                      <input type="text" id="p1time-rehab1" value="通常の訪問（リハビリ）">
+                      <input type="text" id="p1longtime-rehab1" value="１回につき40分">
+                    </dd>
+                    <dt>１回につき60分</dt>
+                    <dd><label>903円：<input type="number" min="0" max="99" id="p1_rehab2" name="p1_rehab2" size="5" value="0">回</label>
+                      <input type="text" id="p1time-rehab2" value="通常の訪問（リハビリ）">
+                      <input type="text" id="p1longtime-rehab2" value="１回につき60分">
+                    </dd>
+                  </dl>
+                </div>  
+              </div>
+              <!-- *****リハビリ基本料金****** -->
+
+              <h3 class="simulation__midttl">加算項目</h3>
+              <dl class="plusitem">
+                <dt><label><input type="checkbox" id="p1_opt0" name="p1_opt0" value="0"> 初回加算</label></dt>
+                <dd><label for="p1_opt0">334円</label>
+                  <input type="text" id="p1-optval0" value="初回加算">
+                </dd>
+          
+                <dt><label><input type="checkbox" id="p1_opt1" name="p1_opt1" value="0"> 緊急時訪問看護加算</label></dt>
+                <dd><label for="p1_opt1">601円</label>
+                  <input type="text" id="p1-optval1" value="緊急時訪問看護加算">
+                </dd>
+          
+                <dt><label><input type="checkbox" id="p1_opt2" name="p1_opt2" value="0"> 特別管理加算（Ⅰ）<small>※</small></label></dt>
+                <dd><label for="p1_opt2">556円</label>
+                  <input type="text" id="p1-optval2" value="特別管理加算（Ⅰ）">
+                </dd>
+          
+                <dt><label><input type="checkbox" id="p1_opt3" name="p1_opt3" value="0"> 特別管理加算（Ⅱ）<small>※</small></label></dt>
+                <dd><label for="p1_opt3">278円</label>
+                  <input type="text" id="p1-optval3" value="特別管理加算（Ⅱ）">
+                </dd>
+          
+                <dt><label><input type="checkbox" id="p1_opt4" name="p1_opt4" value="0"> 退院時共同指導加算</label></dt>
+                <dd><label for="p1_opt4">668円</label>
+                  <input type="text" id="p1-optval4" value="退院時共同指導加算">
+                </dd>
+          
+                <dt><label><input type="checkbox" id="p1_opt5" name="p1_opt5" value="0"> ターミナルケア加算</label></dt>
+                <dd><label for="p1_opt5">2,224円</label>
+                  <input type="text" id="p1-optval5" value="ターミナルケア加算">
+                </dd>
+
+                <dt><label><input type="checkbox" id="p1_opt6" name="p1_opt6" value="0"> 長時間訪問看護加算</label></dt>
+                <dd><label for="p1_opt6">342円</label>
+                  <input type="text" id="p1-optval6" value="長時間訪問看護加算">
+                </dd>
+          
+                <dt><label><input type="checkbox" id="p1_opt7" name="p1_opt7" value="0"> エンゼルケア（保険算定外）</label></dt>
+                <dd><label for="p1_opt7">20,000円</label>
+                  <input type="text" id="p1-optval7" value="エンゼルケア（保険算定外）">
+                </dd>
+              </dl>
+
+              <p class="plusitem__note"><small>※特別管理加算はどちらか一方のみ選択可能です。</small></p>
+              <input type="checkbox" id="simulation-check-1" class="simulation__hidden">
+              <button type="button" class="btn text-white header-btn-contact sim1-cal" data-bs-toggle="modal" data-bs-target="#calModal1">
+                <span>計算</span>
+              </button>
+            </form>
+
+            <!-- The Modal -->
+          <div class="modal fade" id="calModal1">
+            <div class="modal-dialog modal-xl">
+              <div class="modal-content">
+                
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <!-- <h4 class="modal-title">Modal Heading</h4> -->
+                  <div class="modal-title">
+                    <img src="assets/img/hanalab-logo" class="modal-img">
+                  </div>
+                  <button type="button" class="btn-close" id="modal-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body" id="modal-body">
+                  <h2 class="column__ttl price-title text-center">介護保険の料金シミュレーション<br>1合計結果</h2>
+                    <div class="container mt-3">
+                      <table class="table table-striped">
+                        <thead>
+                          <tr>
+                            <th></th>
+                            <th><span class="thfont">時間</span></th>
+                            <th><span class="thfont">回数</span></th>
+                            <th><span class="thfont">利用料金</span></th>
+                          </tr>
+                        </thead>
+                        <tbody id="modaltable">
+                          <tr>
+                            <td id="time"></td>
+                            <td id="longtime"></td>
+                            <td id="num"></td>
+                            <td id="fee"></td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td></td>
+                            <td><span class="result-text">合計</td>
+                            <td><span id="total" class="result-text"> - </span>円</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      
+                    </div>
+                </div>
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" id="modal-close" data-bs-dismiss="modal">閉じる</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- *****2割負担***** -->
+      <div id="kaigo-sim2" class="tab-pane fade in">
+        <section class="simulation -sim2">
+            <h2 class="simulation__ttl">2. 回数の入力<small>（介護保険／1割負担）</small></h2>
+            <form id="simpars2" action="#" name="simpars2">
+              <h3 class="simulation__midttl">看護基本料金</h3>
+              <div class="simulation__tbl">
+                <div class="simulation__row -normal">
+                  <h4 class="simulation__th">通常の時間</h4>
+                  <dl class="simulation__td">
+                    <dt>20分未満</dt>
+                    <dd><label>714円：<input type="number" min="0" max="99" id="p2_num0" name="p2_num0" size="5" value="0">回</label>
+                      <input type="text" id="p2time-0" value="通常の時間（看護）">
+                      <input type="text" id="p2longtime-0" value="20分未満">
+                    </dd>
+                    <dt>30分未満</dt>
+                    <dd><label>1,072円：<input type="number" min="0" max="99" id="p2_num4" name="p2_num4" size="5" value="0">回</label>
+                      <input type="text" id="p2time-4" value="通常の時間（看護）">
+                      <input type="text" id="p2longtime-4" value="30分未満">
+                    </dd>
+                    <dt>30分以上60分未満</dt>
+                    <dd><label>1,872円：<input type="number" min="0" max="99" id="p2_num8" name="p2_num8" size="5" value="0">回</label>
+                      <input type="text" id="p2time-8" value="通常の時間（看護）">
+                      <input type="text" id="p2longtime-8" value="30分以上60分未満">
+                    </dd>
+                    <dt>60分以上90分未満</dt>
+                    <dd><label>2,565円：<input type="number" min="0" max="99" id="p2_num12" name="p2_num12" size="5" value="0">回</label>
+                      <input type="text" id="p2time-12" value="通常の時間（看護）">
+                      <input type="text" id="p2longtime-12" value="60分以上90分未満">
+                    </dd>
+                  </dl>
+                </div>
+                
+                <div class="simulation__row -night">
+                  <h4 class="simulation__th">夜間(18時～22時)<br>25%増し</h4>
+                  <dl class="simulation__td">
+                    <dt>20分未満</dt>
+                    <dd><label>892円：<input type="number" min="0" max="99" id="p2_num1" name="p2_num1" size="5" value="0">回</label>
+                      <input type="text" id="p2time-1" value="夜間(18時～22時)25%増し（看護）">
+                      <input type="text" id="p2longtime-1" value="20分未満">
+                    </dd>
+                    <dt>30分未満</dt>
+                    <dd><label>1,340円：<input type="number" min="0" max="99" id="p2_num5" name="p2_num5" size="5" value="0">回</label>
+                      <input type="text" id="p2time-5" value="夜間(18時～22時)25%増し（看護）">
+                      <input type="text" id="p2longtime-5" value="30分未満">
+                    </dd>
+                    <dt>30分以上60分未満</dt>
+                    <dd><label>2,340円：<input type="number" min="0" max="99" id="p2_num9" name="p2_num9" size="5" value="0">回</label>
+                      <input type="text" id="p2time-9" value="夜間(18時～22時)25%増し（看護）">
+                      <input type="text" id="p2longtime-9" value="30分以上60分未満">
+                    </dd>
+                    <dt>60分以上90分未満</dt>
+                    <dd><label>3,206円：<input type="number" min="0" max="99" id="p2_num13" name="p2_num13" size="5" value="0">回</label>
+                      <input type="text" id="p2time-13" value="夜間(18時～22時)25%増し（看護）">
+                      <input type="text" id="p2longtime-13" value="60分以上90分未満">
+                    </dd>
+                  </dl>
+                </div>
+                
+                <div class="simulation__row -midnight">
+                  <h4 class="simulation__th">深夜(22時～6時)<br>50%増し</h4>
+                  <dl class="simulation__td">
+                    <dt>20分未満</dt>
+                    <dd><label>1,071円：<input type="number" min="0" max="99" id="p2_num2" name="p2_num2" size="5" value="0">回</label>
+                      <input type="text" id="p2time-2" value="深夜(22時～6時)50%増し（看護）">
+                      <input type="text" id="p2longtime-2" value="20分未満">
+                    </dd>
+                    <dt>30分未満</dt>
+                    <dd><label>1,608円：<input type="number" min="0" max="99" id="p2_num6" name="p2_num6" size="5" value="0">回</label>
+                      <input type="text" id="p2time-6" value="深夜(22時～6時)50%増し（看護）">
+                      <input type="text" id="p2longtime-6" value="30分未満">
+                    </dd>
+                    <dt>30分以上60分未満</dt>
+                    <dd><label>2,808円：<input type="number" min="0" max="99" id="p2_num10" name="p2_num10" size="5" value="0">回</label>
+                      <input type="text" id="p2time-10" value="深夜(22時～6時)50%増し（看護）">
+                      <input type="text" id="p2longtime-10" value="30分以上60分未満">
+                    </dd>
+                    <dt>60分以上90分未満</dt>
+                    <dd><label>3,847円：<input type="number" min="0" max="99" id="p2_num14" name="p2_num14" size="5" value="0">回</label>
+                      <input type="text" id="p2time-14" value="深夜(22時～6時)50%増し（看護）">
+                      <input type="text" id="p2longtime-14" value="60分以上90分未満">
+                    </dd>
+                  </dl>
+                </div>
+                
+                <div class="simulation__row -morning">
+                  <h4 class="simulation__th">早朝(6時～8時)<br>25%増し</h4>
+                  <dl class="simulation__td">
+                    <dt>20分未満</dt>
+                    <dd><label>892円：<input type="number" min="0" max="99" id="p2_num3" name="p2_num3" size="5" value="0">回</label>
+                      <input type="text" id="p2time-3" value="早朝(6時～8時)25%増し（看護）">
+                      <input type="text" id="p2longtime-3" value="20分未満">
+                    </dd>
+                    <dt>30分未満</dt>
+                    <dd><label>1,340円：<input type="number" min="0" max="99" id="p2_num7" name="p2_num7" size="5" value="0">回</label>
+                      <input type="text" id="p2time-7" value="早朝(6時～8時)25%増し（看護）">
+                      <input type="text" id="p2longtime-7" value="30分未満">
+                    </dd>
+                    <dt>30分以上60分未満</dt>
+                    <dd><label>2,340円：<input type="number" min="0" max="99" id="p2_num11" name="p2_num11" size="5" value="0">回</label>
+                      <input type="text" id="p2time-11" value="早朝(6時～8時)25%増し（看護）">
+                      <input type="text" id="p2longtime-11" value="30分以上60分未満">
+                    </dd>
+                    <dt>60分以上90分未満</dt>
+                    <dd><label>3,206円：<input type="number" min="0" max="99" id="p2_num15" name="p2_num15" size="5" value="0">回</label>
+                      <input type="text" id="p2time-15" value="早朝(6時～8時)25%増し（看護）">
+                      <input type="text" id="p2longtime-15" value="60分以上90分未満">
+                    </dd>
+                  </dl>
+                </div>
+              </div>
+             
+              <!-- *****リハビリ基本料金****** -->              
+              <h3 class="simulation__midttl">リハビリ基本料金</h3>
+              <div class="simulation__tbl">
+                <div class="simulation__row -rehab">
+                  <h4 class="simulation__th">通常の訪問</h4>
+                  <dl class="simulation__td">
+                    <dt>1回につき20分</dt>
+                    <dd><label>668円：<input type="number" min="0" max="99" id="p2_rehab0" name="p2_rehab0" size="5" value="0">回</label>
+                      <input type="text" id="p2time-rehab0" value="通常の訪問（リハビリ）">
+                      <input type="text" id="p2longtime-rehab0" value="1回につき20分">
+                    </dd>
+                    <dt>１回につき40分</dt>
+                    <dd><label>1,336円：<input type="number" min="0" max="99" id="p2_rehab1" name="p2_rehab1" size="5" value="0">回</label>
+                      <input type="text" id="p2time-rehab1" value="通常の訪問（リハビリ）">
+                      <input type="text" id="p2longtime-rehab1" value="１回につき40分">
+                    </dd>
+                    <dt>１回につき60分</dt>
+                    <dd><label>1,806円：<input type="number" min="0" max="99" id="p2_rehab2" name="p2_rehab2" size="5" value="0">回</label>
+                      <input type="text" id="p2time-rehab2" value="通常の訪問（リハビリ）">
+                      <input type="text" id="p2longtime-rehab2" value="１回につき60分">
+                    </dd>
+                  </dl>
+                </div>  
+              </div>
+    
+              <h3 class="simulation__midttl">加算項目</h3>
+              <dl class="plusitem">
+                <dt><label><input type="checkbox" id="p2_opt0" name="p2_opt0" value="0"> 初回加算</label></dt>
+                <dd><label for="p2_opt0">684円</label>
+                  <input type="text" id="p2-optval0" value="初回加算">
+                </dd>
+          
+                <dt><label><input type="checkbox" id="p2_opt1" name="p2_opt1" value="0"> 緊急時訪問看護加算</label></dt>
+                <dd><label for="p2_opt1">1,309円</label>
+                  <input type="text" id="p2-optval1" value="緊急時訪問看護加算">
+                </dd>
+          
+                <dt><label><input type="checkbox" id="p2_opt2" name="p2_opt2" value="0"> 特別管理加算（Ⅰ）<small>※</small></label></dt>
+                <dd><label for="p2_opt2">1,140円</label>
+                  <input type="text" id="p2-optval2" value="特別管理加算（Ⅰ）">
+                </dd>
+          
+                <dt><label><input type="checkbox" id="p2_opt3" name="p2_opt3" value="0"> 特別管理加算（Ⅱ）<small>※</small></label></dt>
+                <dd><label for="p2_opt3">570円</label>
+                  <input type="text" id="p2-optval3" value="特別管理加算（Ⅱ）">
+                </dd>
+          
+                <dt><label><input type="checkbox" id="p2_opt4" name="p2_opt4" value="0"> 退院時共同指導加算</label></dt>
+                <dd><label for="p2_opt4">1,368円</label>
+                  <input type="text" id="p2-optval4" value="退院時共同指導加算">
+                </dd>
+          
+                <dt><label><input type="checkbox" id="p2_opt5" name="p2_opt5" value="0"> ターミナルケア加算</label></dt>
+                <dd><label for="p2_opt5">4,560円</label>
+                  <input type="text" id="p2-optval5" value="ターミナルケア加算">
+                </dd>
+    
+                <dt><label><input type="checkbox" id="p2_opt6" name="p2_opt6" value="0"> 長時間訪問看護加算</label></dt>
+                <dd><label for="p2_opt6">684円</label>
+                  <input type="text" id="p2-optval6" value="長時間訪問看護加算">
+                </dd>
+          
+                <dt><label><input type="checkbox" id="p2_opt7" name="p2_opt7" value="0"> エンゼルケア（保険算定外）</label></dt>
+                <dd><label for="p2_opt7">20,000円</label>
+                  <input type="text" id="p2-optval7" value="エンゼルケア（保険算定外）">
+                </dd>
+              </dl>
+    
+              <p class="plusitem__note"><small>※特別管理加算はどちらか一方のみ選択可能です。</small></p>
+              <input type="checkbox" id="simulation-check-1" class="simulation__hidden">
+              <button type="button" class="btn text-white header-btn-contact sim2-cal" data-bs-toggle="modal" data-bs-target="#calModal2">
+                <span>計算</span>
+              </button>
+            </form>
+    
+            <!-- The Modal -->
+          <div class="modal fade" id="calModal2">
+            <div class="modal-dialog modal-xl">
+              <div class="modal-content">
+                
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <!-- <h4 class="modal-title">Modal Heading</h4> -->
+                  <div class="modal-title">
+                    <img src="assets/img/hanalab-logo" class="modal-img">
+                  </div>
+                  <button type="button" class="btn-close" id="modal-close" data-bs-dismiss="modal"></button>
+                </div>
+    
+                <!-- Modal body -->
+                <div class="modal-body" id="modal-body">
+                  <h2 class="column__ttl price-title text-center">介護保険の料金シミュレーション<br>２合計結果</h2>
+                    <div class="container mt-3">
+                      <table class="table table-striped">
+                        <thead>
+                          <tr>
+                            <th></th>
+                            <th><span class="thfont">時間2</span></th>
+                            <th><span class="thfont">回数2</span></th>
+                            <th><span class="thfont">利用料金2</span></th>
+                          </tr>
+                        </thead>
+                        <tbody id="modaltable">
+                          <tr>
+                            <td id="time2"></td>
+                            <td id="longtime2"></td>
+                            <td id="num2"></td>
+                            <td id="fee2"></td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td></td>
+                            <td><span class="result-text">合計</td>
+                            <td><span id="total" class="result-text"> - </span>円</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      
+                    </div>
+                </div>
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" id="modal-close" data-bs-dismiss="modal">閉じる</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      
+      <!-- *****3割負担***** -->
+      <div id="kaigo-sim3" class="tab-pane fade in">
+        <section class="simulation -sim3">
+            <h2 class="simulation__ttl">2. 回数の入力<small>（介護保険／1割負担）</small></h2>
+            <form id="simpars3" action="#" name="simpars3">
+              <h3 class="simulation__midttl">看護基本料金</h3>
+              <div class="simulation__tbl">
+                <div class="simulation__row -normal">
+                  <h4 class="simulation__th">通常の時間</h4>
+                  <dl class="simulation__td">
+                    <dt>20分未満</dt>
+                    <dd><label>1,072円：<input type="number" min="0" max="99" id="p3_num0" name="p3_num0" size="5" value="0">回</label>
+                      <input type="text" id="p3time-0" value="通常の時間（看護）">
+                      <input type="text" id="p3longtime-0" value="20分未満">
+                    </dd>
+                    <dt>30分未満</dt>
+                    <dd><label>1,608円：<input type="number" min="0" max="99" id="p3_num4" name="p3_num4" size="5" value="0">回</label>
+                      <input type="text" id="p3time-4" value="通常の時間（看護）">
+                      <input type="text" id="p3longtime-4" value="30分未満">
+                    </dd>
+                    <dt>30分以上60分未満</dt>
+                    <dd><label>2,808円：<input type="number" min="0" max="99" id="p3_num8" name="p3_num8" size="5" value="0">回</label>
+                      <input type="text" id="p3time-8" value="通常の時間（看護）">
+                      <input type="text" id="p3longtime-8" value="30分以上60分未満">
+                    </dd>
+                    <dt>60分以上90分未満</dt>
+                    <dd><label>3,848円：<input type="number" min="0" max="99" id="p3_num12" name="p3_num12" size="5" value="0">回</label>
+                      <input type="text" id="p3time-12" value="通常の時間（看護）">
+                      <input type="text" id="p3longtime-12" value="60分以上90分未満">
+                    </dd>
+                  </dl>
+                </div>
+                
+                <div class="simulation__row -night">
+                  <h4 class="simulation__th">夜間(18時～22時)<br>25%増し</h4>
+                  <dl class="simulation__td">
+                    <dt>20分未満</dt>
+                    <dd><label>1,338円：<input type="number" min="0" max="99" id="p3_num1" name="p3_num1" size="5" value="0">回</label>
+                      <input type="text" id="p3time-1" value="夜間(18時～22時)25%増し（看護）">
+                      <input type="text" id="p3longtime-1" value="20分未満">
+                    </dd>
+                    <dt>30分未満</dt>
+                    <dd><label>2,010円：<input type="number" min="0" max="99" id="p3_num5" name="p3_num5" size="5" value="0">回</label>
+                      <input type="text" id="p3time-5" value="夜間(18時～22時)25%増し（看護）">
+                      <input type="text" id="p3longtime-5" value="30分未満">
+                    </dd>
+                    <dt>30分以上60分未満</dt>
+                    <dd><label>3,510円：<input type="number" min="0" max="99" id="p3_num9" name="p3_num9" size="5" value="0">回</label>
+                      <input type="text" id="p3time-9" value="夜間(18時～22時)25%増し（看護）">
+                      <input type="text" id="p3longtime-9" value="30分以上60分未満">
+                    </dd>
+                    <dt>60分以上90分未満</dt>
+                    <dd><label>4,810円：<input type="number" min="0" max="99" id="p3_num13" name="p3_num13" size="5" value="0">回</label>
+                      <input type="text" id="p3time-13" value="夜間(18時～22時)25%増し（看護）">
+                      <input type="text" id="p3longtime-13" value="60分以上90分未満">
+                    </dd>
+                  </dl>
+                </div>
+                
+                <div class="simulation__row -midnight">
+                  <h4 class="simulation__th">深夜(22時～6時)<br>50%増し</h4>
+                  <dl class="simulation__td">
+                    <dt>20分未満</dt>
+                    <dd><label>1,606円：<input type="number" min="0" max="99" id="p3_num2" name="p3_num2" size="5" value="0">回</label>
+                      <input type="text" id="p3time-2" value="深夜(22時～6時)50%増し（看護）">
+                      <input type="text" id="p3longtime-2" value="20分未満">
+                    </dd>
+                    <dt>30分未満</dt>
+                    <dd><label>2,412円：<input type="number" min="0" max="99" id="p3_num6" name="p3_num6" size="5" value="0">回</label>
+                      <input type="text" id="p3time-6" value="深夜(22時～6時)50%増し（看護）">
+                      <input type="text" id="p3longtime-6" value="30分未満">
+                    </dd>
+                    <dt>30分以上60分未満</dt>
+                    <dd><label>4,212円：<input type="number" min="0" max="99" id="p3_num10" name="p3_num10" size="5" value="0">回</label>
+                      <input type="text" id="p3time-10" value="深夜(22時～6時)50%増し（看護）">
+                      <input type="text" id="p3longtime-10" value="30分以上60分未満">
+                    </dd>
+                    <dt>60分以上90分未満</dt>
+                    <dd><label>5,772円：<input type="number" min="0" max="99" id="p3_num14" name="p3_num14" size="5" value="0">回</label>
+                      <input type="text" id="p3time-14" value="深夜(22時～6時)50%増し（看護）">
+                      <input type="text" id="p3longtime-14" value="60分以上90分未満">
+                    </dd>
+                  </dl>
+                </div>
+                
+                <div class="simulation__row -morning">
+                  <h4 class="simulation__th">早朝(6時～8時)<br>25%増し</h4>
+                  <dl class="simulation__td">
+                    <dt>20分未満</dt>
+                    <dd><label>1,338円：<input type="number" min="0" max="99" id="p3_num3" name="p3_num3" size="5" value="0">回</label>
+                      <input type="text" id="p3time-3" value="早朝(6時～8時)25%増し（看護）">
+                      <input type="text" id="p3longtime-3" value="20分未満">
+                    </dd>
+                    <dt>30分未満</dt>
+                    <dd><label>2,010円：<input type="number" min="0" max="99" id="p3_num7" name="p3_num7" size="5" value="0">回</label>
+                      <input type="text" id="p3time-7" value="早朝(6時～8時)25%増し（看護）">
+                      <input type="text" id="p3longtime-7" value="30分未満">
+                    </dd>
+                    <dt>30分以上60分未満</dt>
+                    <dd><label>3,510円：<input type="number" min="0" max="99" id="p3_num11" name="p3_num11" size="5" value="0">回</label>
+                      <input type="text" id="p3time-11" value="早朝(6時～8時)25%増し（看護）">
+                      <input type="text" id="p3longtime-11" value="30分以上60分未満">
+                    </dd>
+                    <dt>60分以上90分未満</dt>
+                    <dd><label>4,810円：<input type="number" min="0" max="99" id="p3_num15" name="p3_num15" size="5" value="0">回</label>
+                      <input type="text" id="p3time-15" value="早朝(6時～8時)25%増し（看護）">
+                      <input type="text" id="p3longtime-15" value="60分以上90分未満">
+                    </dd>
+                  </dl>
+                </div>
+              </div>
+             
+              <!-- *****リハビリ基本料金****** -->              
+              <h3 class="simulation__midttl">リハビリ基本料金</h3>
+              <div class="simulation__tbl">
+                <div class="simulation__row -rehab">
+                  <h4 class="simulation__th">通常の訪問</h4>
+                  <dl class="simulation__td">
+                    <dt>1回につき20分</dt>
+                    <dd><label>1,002円：<input type="number" min="0" max="99" id="p3_rehab0" name="p3_rehab0" size="5" value="0">回</label>
+                      <input type="text" id="p3time-rehab0" value="通常の訪問（リハビリ）">
+                      <input type="text" id="p3longtime-rehab0" value="1回につき20分">
+                    </dd>
+                    <dt>１回につき40分</dt>
+                    <dd><label>2,004円：<input type="number" min="0" max="99" id="p3_rehab1" name="p3_rehab1" size="5" value="0">回</label>
+                      <input type="text" id="p3time-rehab1" value="通常の訪問（リハビリ）">
+                      <input type="text" id="p3longtime-rehab1" value="１回につき40分">
+                    </dd>
+                    <dt>１回につき60分</dt>
+                    <dd><label>2,709円：<input type="number" min="0" max="99" id="p3_rehab2" name="p3_rehab2" size="5" value="0">回</label>
+                      <input type="text" id="p3time-rehab2" value="通常の訪問（リハビリ）">
+                      <input type="text" id="p3longtime-rehab2" value="１回につき60分">
+                    </dd>
+                  </dl>
+                </div>  
+              </div>
+    
+              <h3 class="simulation__midttl">加算項目</h3>
+              <dl class="plusitem">
+                <dt><label><input type="checkbox" id="p3_opt0" name="p3_opt0" value="0"> 初回加算</label></dt>
+                <dd><label for="p3_opt0">1,026円</label>
+                  <input type="text" id="p3-optval0" value="初回加算">
+                </dd>
+          
+                <dt><label><input type="checkbox" id="p3_opt1" name="p3_opt1" value="0"> 緊急時訪問看護加算</label></dt>
+                <dd><label for="p3_opt1">1,963円</label>
+                  <input type="text" id="p3-optval1" value="緊急時訪問看護加算">
+                </dd>
+          
+                <dt><label><input type="checkbox" id="p3_opt2" name="p3_opt2" value="0"> 特別管理加算（Ⅰ）<small>※</small></label></dt>
+                <dd><label for="p3_opt2">1,710円</label>
+                  <input type="text" id="p3-optval2" value="特別管理加算（Ⅰ）">
+                </dd>
+          
+                <dt><label><input type="checkbox" id="p3_opt3" name="p3_opt3" value="0"> 特別管理加算（Ⅱ）<small>※</small></label></dt>
+                <dd><label for="p3_opt3">885円</label>
+                  <input type="text" id="p3-optval3" value="特別管理加算（Ⅱ）">
+                </dd>
+          
+                <dt><label><input type="checkbox" id="p3_opt4" name="p3_opt4" value="0"> 退院時共同指導加算</label></dt>
+                <dd><label for="p3_opt4">2,052円</label>
+                  <input type="text" id="p3-optval4" value="退院時共同指導加算">
+                </dd>
+          
+                <dt><label><input type="checkbox" id="p3_opt5" name="p3_opt5" value="0"> ターミナルケア加算</label></dt>
+                <dd><label for="p3_opt5">6,840</label>
+                  <input type="text" id="p3-optval5" value="ターミナルケア加算">
+                </dd>
+    
+                <dt><label><input type="checkbox" id="p3_opt6" name="p3_opt6" value="0"> 長時間訪問看護加算</label></dt>
+                <dd><label for="p3_opt6">1,026円</label>
+                  <input type="text" id="p3-optval6" value="長時間訪問看護加算">
+                </dd>
+          
+                <dt><label><input type="checkbox" id="p3_opt7" name="p3_opt7" value="0"> エンゼルケア（保険算定外）</label></dt>
+                <dd><label for="p3_opt7">20,000円</label>
+                  <input type="text" id="p3-optval7" value="エンゼルケア（保険算定外）">
+                </dd>
+              </dl>
+    
+              <p class="plusitem__note"><small>※特別管理加算はどちらか一方のみ選択可能です。</small></p>
+              <input type="checkbox" id="simulation-check-1" class="simulation__hidden">
+              <button type="button" class="btn text-white header-btn-contact sim3-cal" data-bs-toggle="modal" data-bs-target="#calModal3">
+                <span>計算</span>
+              </button>
+            </form>
+    
+            <!-- The Modal -->
+          <div class="modal fade" id="calModal3">
+            <div class="modal-dialog modal-xl">
+              <div class="modal-content">
+                
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <!-- <h4 class="modal-title">Modal Heading</h4> -->
+                  <div class="modal-title">
+                    <img src="assets/img/hanalab-logo" class="modal-img">
+                  </div>
+                  <button type="button" class="btn-close" id="modal-close" data-bs-dismiss="modal"></button>
+                </div>
+    
+                <!-- Modal body -->
+                <div class="modal-body" id="modal-body">
+                  <h2 class="column__ttl price-title text-center">介護保険の料金シミュレーション<br>２合計結果</h2>
+                    <div class="container mt-3">
+                      <table class="table table-striped">
+                        <thead>
+                          <tr>
+                            <th></th>
+                            <th><span class="thfont">時間2</span></th>
+                            <th><span class="thfont">回数2</span></th>
+                            <th><span class="thfont">利用料金2</span></th>
+                          </tr>
+                        </thead>
+                        <tbody id="modaltable">
+                          <tr>
+                            <td id="time3"></td>
+                            <td id="longtime3"></td>
+                            <td id="num3"></td>
+                            <td id="fee3"></td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td></td>
+                            <td><span class="result-text">合計</td>
+                            <td><span id="total" class="result-text"> - </span>円</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      
+                    </div>
+                </div>
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" id="modal-close" data-bs-dismiss="modal">閉じる</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+  <!-- *****end of simulation wrapper***** -->
+  
+  <!-- *****footer wrapper***** -->
+  <div class="container-fluid align-items-center justify-content-center footer">
+    <div class="container pt-4 text-white">
+      <div class="row flex-column">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-4">
+          <h5>株式会社HANALAB コンサルティング</h5>
+          <div class="row footer-text flex-column">
+            <div class="col-sm-3">
+              商　　号　<br> 所  在  地 <br>設　　立<br>電　　話<br>受付時間<br>代表取締役
+            </div>
+            <div class="col-sm-9">
+              株式会社 HANALAB　<br> 〒170-0013　東京都豊島区東池袋2-21-6 <br>令和元年11月11日<br>03-6822-6736 / FAX 03-6685-2873<br>9：00～18：00<br>若山 克彦
+            </div>
+          </div>
+          <div class="pt-3 text-white">
+            <p><a class="text-white" href="https://www.hanalab-fc.com/%E3%82%B5%E3%82%A4%E3%83%88%E3%83%9E%E3%83%83%E3%83%97">サイトマップ</a></p>
+          </div>
+        </div>
+        <div class="col-sm-2"></div>
+        <div class="col-sm-5">
+          <div class="footer-logo">
+            <a href="https://www.hanalab-fc.com">
+              <img src="assets/img/hanalab-logo" alt="Hana FC" class="footer-img">
+            </a>
+          </div>
+          <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
+            <i class="fas fa-arrow-up"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+   <!-- *****footer wrapper***** -->
+  
+  <script>
+    
+    //card button
+    $(".nav-tabs a").click(function(){
+      $(this).tab('show');
+    });
+
+    //Get the button
+    let mybutton = document.getElementById("btn-back-to-top");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () {
+      scrollFunction();
+    };
+
+    function scrollFunction() {
+    if (
+        document.body.scrollTop > 20 ||
+        document.documentElement.scrollTop > 20
+      ) {
+    mybutton.style.display = "block";
+    } else {
+    mybutton.style.display = "none";
+      }
+    }
+
+   // When the user clicks on the button, scroll to the top of the document
+    mybutton.addEventListener("click", backToTop);
+
+    function backToTop() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
+</body>
+</html>
